@@ -70,6 +70,9 @@ else
         puts underline
         puts menu
         opt1 = gets.chomp.to_i
+        if figure_opt(opt1) == 'salir'
+            exit()
+        end
     end
 end
 
